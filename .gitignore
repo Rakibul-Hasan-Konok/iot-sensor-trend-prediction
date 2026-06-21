@@ -13,10 +13,5 @@ models/
 *.h5
 *.keras
 
-outputs/
-plots/
-*.png
-*.jpg
-
 .env
 .DS_Store
