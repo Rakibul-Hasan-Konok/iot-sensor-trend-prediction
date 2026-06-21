@@ -1,0 +1,21 @@
+{
+    "validation_engine_based": {
+        "MAE": 34.15521064051827,
+        "RMSE": 48.09568145730918,
+        "R2": 0.6147969907363462
+    },
+    "official_test_final_cycle": {
+        "MAE": 20.373671910506356,
+        "RMSE": 27.394720048597293,
+        "R2": 0.5654155435123657
+    },
+    "model": "RandomForestRegressor",
+    "features_used": 60,
+    "validation_strategy": "engine_based_split",
+    "overfitting_controls": [
+        "unseen_engine_validation",
+        "max_depth_limit",
+        "min_samples_leaf",
+        "official_unseen_test_evaluation"
+    ]
+}
