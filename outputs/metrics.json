@@ -7,7 +7,7 @@
     "official_test_final_cycle": {
         "MAE": 20.373671910506356,
         "RMSE": 27.394720048597293,
-        "R2": 0.5654155435123657
+        "R2": 0.5654155435123656
     },
     "model": "RandomForestRegressor",
     "features_used": 60,
